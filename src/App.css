@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+  width: 100%;
+}
+.karti{
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.kalendar{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #f0faff;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}

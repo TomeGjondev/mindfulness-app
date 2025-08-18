@@ -1,15 +1,19 @@
 import React from 'react';
+import './MyCards.css';
 
 const MeditationExercises = ({ onBack }) => {
   return (
-    <div>
-      <h2>Meditation Exercises</h2>
-      {/* Your actual meditation exercises go here */}
-      <p>Exercise 1: Mindful breathing</p>
-      <p>Exercise 2: Body scan</p>
-      <p>Exercise 3: Loving-kindness meditation</p>
+    <div className="audio-container1">
+    <div className='audioplayer1'>
+      <h1 className='ime1'>Meditation</h1>
+        {/* Audio player */}
+       <audio className='controls1' controls loop>
+  <source src={`${import.meta.env.BASE_URL}Sounds/meditation1.mp3`} type="audio/mp3" />
+</audio>
 
-      <button onClick={onBack}>Back to Cards</button>
+
+      <button className='nazad1' onClick={onBack}>Back to Cards</button>
+    </div>
     </div>
   );
 };

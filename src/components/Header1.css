@@ -3,11 +3,27 @@
   width: 100%;
   margin-top: 0;
   height: 120px;
-  background-color: #ccffcc;
+  /*background-color: #ccffcc; */
+  background: linear-gradient(to bottom right, #bbf7d0, #93c5fd);
   justify-content: center;
   align-items: center;
   justify-items: center;
   text-align: center;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
+}
+.login-button {
+  position: absolute;
+  right: 120px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #357ae8;
 }
